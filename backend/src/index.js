@@ -6,6 +6,8 @@ const app = express()
 const server = require('http').Server(app)
 const io = require('socket.io')(server)
 
+// Create your own account at https://mlab.com/ and
+// replace the gql-ninja:test123 with your infos
 mongoose.connect('mongodb://omnistack:test123@ds221435.mlab.com:21435/omnistack', { useNewUrlParser: true })
 
 app.use((req, res, next) => {
