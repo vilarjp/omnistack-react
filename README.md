@@ -1,3 +1,5 @@
+![alt text](https://github.com/vilarjp/omnistack-react/blob/master/image.png)
+
 # React App - Twitter Clone
 
 A simple twitter clone app made with React, Node.js, Socket.io and MongoDB
